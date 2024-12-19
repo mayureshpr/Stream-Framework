@@ -1,5 +1,6 @@
 from stream_framework.storage.redis.connection import get_redis_connection
-from redis.client import BasePipeline
+from redis.client import Pipeline as BasePipeline
+# from redis.client import BasePipeline
 
 
 class RedisCache(object):
